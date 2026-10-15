@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import expressiveCode from 'astro-expressive-code';
@@ -8,6 +9,8 @@ import remarkDocLinks from './src/plugins/doc-links.mjs';
 import remarkKramdownIal from './src/plugins/kramdown-ial.mjs';
 
 const base = '/programmering-java';
+// Gamla URL:er som bytt namn (se planering/backlog.md, F0-02 och F1). Fylls på vid varje namnbyte.
+const redirects = JSON.parse(readFileSync(new URL('./redirects.json', import.meta.url), 'utf-8'));
 // Converts ```mermaid blocks to <pre class="mermaid"> before expressive-code sees them
 function remarkMermaid() {
   return (tree) => {
@@ -28,6 +31,7 @@ function remarkMermaid() {
 export default defineConfig({
   site: 'https://marcusjobb.github.io',
   base,
+  redirects,
   output: 'static',
   integrations: [
     expressiveCode({
