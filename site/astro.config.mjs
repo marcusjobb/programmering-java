@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import remarkDocLinks from './src/plugins/doc-links.mjs';
 import remarkKramdownIal from './src/plugins/kramdown-ial.mjs';
 
-const base = '/java-bok';
+const base = '/programmering-java';
 // Converts ```mermaid blocks to <pre class="mermaid"> before expressive-code sees them
 function remarkMermaid() {
   return (tree) => {

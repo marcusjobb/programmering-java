@@ -36,6 +36,6 @@ Använd sökfunktionen (överst till höger) eller menyn till vänster.
 
 Boken skapades ursprungligen för kursen JIN23 vid Campus Mölndal och har sedan migrerats hit. Den uppdateras löpande, och tanken är att den så småningom ska publiceras som en riktig bok — när innehållet är tillräckligt komplett.
 
-Saknar du ett ämne eller en förklaring? Hör av dig — på Discord, via skolans mail, eller via ett issue på [GitHub](https://github.com/marcusjobb/java-bok).
+Saknar du ett ämne eller en förklaring? Hör av dig — på Discord, via skolans mail, eller via ett issue på [GitHub](https://github.com/marcusjobb/programmering-java).
 
 /Marcus

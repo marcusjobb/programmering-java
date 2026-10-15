@@ -1,4 +1,4 @@
-# java-bok
+# programmering-java (tidigare java-bok)
 
 ## Länkar mellan sidor
 

@@ -8,8 +8,8 @@
 Denna bok täcker Java-programmering från grunderna till OOP, datastrukturer och API:er.
 Målgrupp: programmeringsstuderande på YH-nivå.
 Licens: Apache 2.0
-Källa: https://github.com/marcusjobb/java-bok
-Publicerad: https://marcusjobb.github.io/java-bok/
+Källa: https://github.com/marcusjobb/programmering-java
+Publicerad: https://marcusjobb.github.io/programmering-java/
 
 ## Författare
 

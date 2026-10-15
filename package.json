@@ -1,5 +1,5 @@
 {
-  "name": "java-bok",
+  "name": "programmering-java",
   "type": "module",
   "scripts": {
     "dev": "astro dev --root site",

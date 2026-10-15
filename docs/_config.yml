@@ -1,6 +1,6 @@
-title: "Java"
+title: "Programmering i Java"
 description: "Java-programmering för YH-studerande av Marcus A.M."
-baseurl: "/java-bok"
+baseurl: "/programmering-java"
 url: "https://marcusjobb.github.io"
 
 remote_theme: just-the-docs/just-the-docs@v0.10.0
@@ -49,7 +49,7 @@ callouts:
 # Edit on GitHub
 gh_edit_link: true
 gh_edit_link_text: "Redigera"
-gh_edit_repository: "https://github.com/marcusjobb/java-bok"
+gh_edit_repository: "https://github.com/marcusjobb/programmering-java"
 gh_edit_branch: "main"
 gh_edit_view_mode: "edit"
 
