@@ -134,6 +134,36 @@ Till SQLite:
 ![En AI omvandlar DBML till SQLite](images/dbdiagram-ai-sqlite.png)
 
 
+## Alternativ: Mermaid erDiagram
+
+dbdiagram.io kräver webbläsaren. Mermaid är ett alternativ som renderas direkt på GitHub och i VS Code — du skriver diagrammet som ett kodblock i Markdown.
+
+Samma hjältedatabas i Mermaid:
+
+```mermaid
+erDiagram
+    Hero ||--o{ HeroCity : "bor i"
+    City ||--o{ HeroCity : "hyser"
+
+    Hero {
+        int id PK
+        string name
+        string alias
+    }
+    City {
+        int id PK
+        string name
+    }
+    HeroCity {
+        int heroId FK
+        int cityId FK
+    }
+```
+
+Fördelen: diagrammet versionshanteras i samma repo som koden. Nackdelen: du kan inte klicka och flytta runt tabellerna som i dbdiagram.io.
+
+---
+
 ## TL;DR
 
 - **dbdiagram.io** ritar databasen åt dig utifrån text.
