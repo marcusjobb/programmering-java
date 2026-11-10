@@ -11,7 +11,9 @@ nav_order: 50
 
 Nu ansluter vi till MySQL från Java med **JDBC** (Java Database Connectivity) — Javas standardgränssnitt för databaser. Principen är densamma oavsett databas: vi skickar SQL och läser svaret. Skillnaden mot SQLite är att vi ansluter via nätverket med en URL, användare och lösenord.
 
-> **Behöver du MySQL?** Enklaste sättet är via Docker. Se [MySQL med Docker](mysql-docker.md) för hur du startar en container med ett kommando.
+> **Behöver du MySQL?** Enklaste sättet är via Docker. Starta en container med ett kommando:
+>
+> `docker run --name mysql1 -e MYSQL_ROOT_PASSWORD=<lösenord> -p 3306:3306 -d mysql:8.4`
 
 ---
 
