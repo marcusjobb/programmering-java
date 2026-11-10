@@ -7,7 +7,7 @@ nav_order: 121
 ---
 # Lathund: MongoDB
 
-MongoDB är en dokumentdatabas. Du lagrar dokument i en collection, och du behöver ingen tabellstruktur i förväg. Samma kapitel finns för C#, med MongoDB C#-drivern.
+MongoDB är en dokumentdatabas. Du lagrar dokument i en collection, och du behöver ingen tabellstruktur i förväg.
 
 ## Välj hur du kör MongoDB
 

@@ -8,15 +8,38 @@ has_children: true
 ---
 # Lathund
 
-Här samlar vi det du behöver när du jobbar med databaser i Java. Varje sida har samma upplägg: installation, konfiguration, CRUD, transaktioner, seeding och terminologi.
+Här samlar vi snabbreferenser för det du använder mest i Java: datatyper, kontrollflöde, samlingar, git och databaser. Sidorna är i ordning efter bokens kapitel, så de nya längst upp hör ihop med kapitlen före dem.
 
 | Sida | Vad den täcker |
 |------|----------------|
+| [Variabler](variables.md) | Deklaration, typer och namngivning |
+| [Heltal](integers.md) | `int`, `long`, parsning och överflöde |
+| [Decimaltal](decimals.md) | `double`, `float`, `BigDecimal` |
+| [Booleans](booleans.md) | `boolean` och logiska operatorer |
+| [Strängar](strings.md) | `String`-metoder och jämförelser |
+| [Datatyper](datatypes.md) | Översikt över primitiva typer och deras storlek |
+| [If](if.md) | Villkor och if-satser |
+| [Switch](switch.md) | Switch-satsen och switch-uttryck |
+| [While](while.md) | While-loopar |
+| [Do-while](do-while.md) | Loopar som körs minst en gång |
+| [For](for.md) | For-loopar och for-each |
+| [Arrayer](arrays.md) | Arrayer med fast storlek |
+| [List](list.md) | `List` och `ArrayList` |
+| [Länkad lista](linked-list.md) | `LinkedList` |
+| [Map](dictionary.md) | `Map`, `HashMap` och nyckel-värde-par |
+| [HashSet](hashset.md) | Mängder utan dubbletter |
+| [Stack](stack.md) | Stack med `Deque` |
+| [Queue](queue.md) | Kö med `Queue` och `ArrayDeque` |
+| [Git-snabbguide](git-quickguide.md) | Vanliga git-kommandon |
+| [Git Flow](git-flow.md) | Branchstruktur och PR-flöde |
+| [Kommandotolken](command-line.md) | Windows-kommandotolken |
+| [Markdown](markdown.md) | Formatering för README och dokumentation |
+| [Scrum](scrum.md) | Roller, artefakter och events |
 | [JPA och Hibernate](jpa-hibernate.md) | ORM: entiteter, sessioner, HQL, relationer och seeding |
 | [JDBC med SQLite](jdbc-sqlite.md) | Lägsta lagret: du skriver SQL och hanterar anslutningen själv |
 | [MongoDB](mongodb.md) | Dokumentdatabas: Docker, Atlas, Compass, CRUD och transaktioner |
 
-Grunderna finns i [Databaser](../orm/index.md) och [SQL](../sql/index.md).
+Databas-sidorna ligger längst ner i listan. Grunderna finns i [Databaser](../orm/index.md) och [SQL](../sql/index.md).
 
 ## Konfiguration i JSON
 
