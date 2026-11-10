@@ -3,7 +3,7 @@ title: "Lathund: MongoDB"
 author: Marcus Ackre Medina
 description: "MongoDB i Java i lathundsform: Docker, Atlas, Compass, konfiguration, CRUD, transaktioner med replica set och seeding."
 parent: Lathund
-nav_order: 30
+nav_order: 121
 ---
 # Lathund: MongoDB
 
@@ -67,6 +67,8 @@ MongoCollection<Document> products = database.getCollection("products");
 Byt `MongoLocal` mot `MongoAtlas` när du vill ansluta till Atlas. Koden är densamma.
 
 ## Docker
+<details>
+<summary>Lokalt med Docker</summary>
 
 ```bash
 docker run --name mongo1 -p 27017:27017 -v mongo-data:/data/db -d mongo
@@ -74,7 +76,11 @@ docker run --name mongo1 -p 27017:27017 -v mongo-data:/data/db -d mongo
 
 Volymen `mongo-data` gör att datan finns kvar om du tar bort containern.
 
+</details>
+
 ## Atlas
+<details>
+<summary>MongoDB Atlas (molnet)</summary>
 
 1. Skapa ett konto på mongodb.com/cloud/atlas. Gratisnivån (M0) räcker.
 2. Skapa ett kluster: *Build a Database* → *M0 Free*.
@@ -83,6 +89,8 @@ Volymen `mongo-data` gör att datan finns kvar om du tar bort containern.
 5. Klicka på *Connect* → *Drivers* → Java och kopiera connection string. Byt ut `<password>`.
 
 **På lektionerna** lägger vi till `0.0.0.0/0`, som betyder alla adresser. Ta bort posten efter lektionen.
+
+</details>
 
 ## Compass
 
@@ -173,10 +181,3 @@ if (products.countDocuments() == 0) {
 | **Replica set** | Flera servrar som håller samma data. Krävs för transaktioner |
 | **Session** | Ramen för en transaktion. Skickas som första argument |
 | **IP access list** | Adresser som får ansluta till Atlas |
-
-## Tips och tricks
-
-- Connection string fungerar inte mot Atlas? Kontrollera att din IP-adress finns i Network Access.
-- Ingen data syns? Kontrollera databasens namn. Det måste vara samma i koden och i Compass.
-- Lägg inte `0.0.0.0/0` och glöm bort den. Ta bort posten efter lektionen.
-- `toJson()` är bra när du vill se vad som faktiskt finns i ett dokument.

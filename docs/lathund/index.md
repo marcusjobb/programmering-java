@@ -47,7 +47,3 @@ String atlasUrl = System.getenv("MONGO_ATLAS");
 ```
 
 Sätt variabeln i terminalen innan du startar programmet.
-
----
-
-Samma innehåll finns för C#, med Entity Framework Core, ADO.NET och MongoDB C#-drivern.

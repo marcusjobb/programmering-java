@@ -3,11 +3,13 @@ title: "Lathund: JDBC med SQLite"
 author: Marcus Ackre Medina
 description: "JDBC med SQLite i lathundsform: Connection, PreparedStatement, CRUD, transaktioner och seeding utan ORM."
 parent: Lathund
-nav_order: 20
+nav_order: 101
 ---
 # Lathund: JDBC med SQLite
 
 JDBC är Javas lägsta lager mot databaser. Du skriver SQL själv och hanterar anslutningen själv. Hibernate bygger på samma sak bakom kulisserna. Se även [SQL](../sql/index.md).
+
+Läs mer: [SQL](../sql/index.md).
 
 ## Dependency
 
@@ -194,10 +196,3 @@ try (Connection connection = DriverManager.getConnection(url)) {
 | **ResultSet** | Raderna som en fråga gav, som läses framåt |
 | **executeUpdate** | Kör en sats som inte returnerar rader |
 | **Transaction** | Flera ändringar som lyckas eller ångras tillsammans |
-
-## Tips och tricks
-
-- Använd alltid `PreparedStatement` när värdet kommer från användaren.
-- Använd try-with-resources. Då stängs anslutningen, satsen och resultatet automatiskt.
-- `SELECT COUNT(*)` ger ett enda värde. Läs det med `rs.next()` och `rs.getInt(1)`.
-- Radera `webshop.db` om du vill börja om från början.

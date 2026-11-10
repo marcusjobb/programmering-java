@@ -3,11 +3,13 @@ title: "Lathund: JPA och Hibernate"
 author: Marcus Ackre Medina
 description: "JPA och Hibernate i lathundsform: entiteter, SessionFactory, CRUD, transaktioner, relationer och seeding med SQLite."
 parent: Lathund
-nav_order: 10
+nav_order: 111
 ---
 # Lathund: JPA och Hibernate
 
 JPA är standarden för objekt-relationsmappning i Java. Hibernate är den vanligaste implementationen. Du markerar klasserna med annoteringar, och Hibernate skriver SQL:en åt dig. Motsvarigheten i C#-boken är Entity Framework Core.
+
+Läs mer: [Databaser](../orm/index.md).
 
 ## Dependencies
 
@@ -247,11 +249,3 @@ Anropa seedern en gång när programmet startar, efter att factoryn skapats.
 | **Dirty checking** | Hibernate jämför objekten med det som lästes och skriver bara ändringar |
 | **HQL** | Hibernates frågespråk, som SQL men med klassnamn och egenskaper |
 | **Dialect** | Det som anpassar SQL:en till en viss databas |
-
-## Tips och tricks
-
-- Entiteter ska ha en tom `protected`-konstruktor. JPA kräver den.
-- Håll sessionen kort. Öppna den, gör jobbet och stäng den.
-- `getSingleResult()` kastar ett undantag om raden saknas eller det finns flera. Använd `getResultList()` när det kan vara fler.
-- Lagra pengar som `BigDecimal` i riktiga program. `double` kan ge avrundningsfel.
-- Lösenord ligger i miljövariabler, aldrig i `config.json` som ligger i git.
