@@ -1,7 +1,7 @@
 ---
 title: "Lathund: kommandotolken"
 author: Marcus Ackre Medina
-description: "Kommandotolken (cmd) i Windows i lathundsform: navigering, filhantering, filsökning, systeminformation, nätverk och användarkonton."
+description: "Kommandotolken (cmd) i Windows: navigering, filhantering, filsökning, systeminformation, nätverk och användarkonton."
 parent: Lathund
 nav_order: 973
 ---

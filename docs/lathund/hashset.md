@@ -1,7 +1,7 @@
 ---
 title: "Lathund: HashSet"
 author: Marcus Ackre Medina
-description: "HashSet i Java i lathundsform: unika element, snabb sökning med contains, och varför ordningen inte är garanterad."
+description: "HashSet i Java: unika element, snabb sökning med contains, och varför ordningen inte är garanterad."
 parent: Lathund
 nav_order: 75
 ---

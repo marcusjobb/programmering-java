@@ -1,7 +1,7 @@
 ---
 title: "Lathund: JPA och Hibernate"
 author: Marcus Ackre Medina
-description: "JPA och Hibernate i lathundsform: entiteter, SessionFactory, CRUD, transaktioner, relationer och seeding med SQLite."
+description: "JPA och Hibernate: entiteter, SessionFactory, CRUD, transaktioner, relationer och seeding med SQLite."
 parent: Lathund
 nav_order: 111
 ---

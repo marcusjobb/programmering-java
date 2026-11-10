@@ -1,7 +1,7 @@
 ---
 title: "Lathund: MongoDB"
 author: Marcus Ackre Medina
-description: "MongoDB i Java i lathundsform: Docker, Atlas, Compass, konfiguration, CRUD, transaktioner med replica set och seeding."
+description: "MongoDB i Java: Docker, Atlas, Compass, konfiguration, CRUD, transaktioner med replica set och seeding."
 parent: Lathund
 nav_order: 121
 ---

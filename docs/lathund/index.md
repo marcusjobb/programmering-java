@@ -1,72 +1,87 @@
 ---
 title: Lathund
+description: "Snabbreferenser för Java: datatyper, kontrollflöde, samlingar, databaser och verktyg. Kort och strukturerat, med länkar till kapitlen för den grundliga genomgången."
 author: Marcus Ackre Medina
-description: "Snabbreferens för databaser i Java: JDBC med SQLite, JPA och Hibernate samt MongoDB. Installation, konfiguration, CRUD, transaktioner och seeding på ett ställe."
 parent: Java
 nav_order: 990
 has_children: true
 ---
 # Lathund
 
-Här samlar vi snabbreferenser för det du använder mest i Java: datatyper, kontrollflöde, samlingar, git och databaser. Sidorna är i ordning efter bokens kapitel, så de nya längst upp hör ihop med kapitlen före dem.
+Snabbreferenser för det du behöver när du skriver kod. Sidorna är ordnade efter bokens kapitel, så den som följer boken hittar rätt direkt. Vill du förstå något grundligt, gå till kapitlet som sidan länkar till.
+
+## Datatyper
+
+Grunderna för variabler och värden.
 
 | Sida | Vad den täcker |
 |------|----------------|
-| [Variabler](variables.md) | Deklaration, typer och namngivning |
-| [Heltal](integers.md) | `int`, `long`, parsning och överflöde |
-| [Decimaltal](decimals.md) | `double`, `float`, `BigDecimal` |
-| [Booleans](booleans.md) | `boolean` och logiska operatorer |
-| [Strängar](strings.md) | `String`-metoder och jämförelser |
-| [Datatyper](datatypes.md) | Översikt över primitiva typer och deras storlek |
-| [If](if.md) | Villkor och if-satser |
-| [Switch](switch.md) | Switch-satsen och switch-uttryck |
-| [While](while.md) | While-loopar |
-| [Do-while](do-while.md) | Loopar som körs minst en gång |
-| [For](for.md) | For-loopar och for-each |
-| [Arrayer](arrays.md) | Arrayer med fast storlek |
-| [List](list.md) | `List` och `ArrayList` |
-| [Länkad lista](linked-list.md) | `LinkedList` |
-| [Map](dictionary.md) | `Map`, `HashMap` och nyckel-värde-par |
-| [HashSet](hashset.md) | Mängder utan dubbletter |
-| [Stack](stack.md) | Stack med `Deque` |
-| [Queue](queue.md) | Kö med `Queue` och `ArrayDeque` |
-| [Git-snabbguide](git-quickguide.md) | Vanliga git-kommandon |
-| [Git Flow](git-flow.md) | Branchstruktur och PR-flöde |
-| [Kommandotolken](command-line.md) | Windows-kommandotolken |
-| [Markdown](markdown.md) | Formatering för README och dokumentation |
-| [Scrum](scrum.md) | Roller, artefakter och events |
-| [JPA och Hibernate](jpa-hibernate.md) | ORM: entiteter, sessioner, HQL, relationer och seeding |
-| [JDBC med SQLite](jdbc-sqlite.md) | Lägsta lagret: du skriver SQL och hanterar anslutningen själv |
-| [MongoDB](mongodb.md) | Dokumentdatabas: Docker, Atlas, Compass, CRUD och transaktioner |
+| [Variabler](variables.md) | Snabbreferens för hur du deklarerar, initierar och använder variabler i Java. |
+| [Heltal (int)](integers.md) | Snabbreferens för heltalstypen int i Java: omvandling, aritmetik, jämförelser och vanliga fallgropar. |
+| [Decimaltal](decimals.md) | Snabbreferens för decimaltal i Java: double, float och BigDecimal, omvandling, avrundning och vanliga fallgropar. |
+| [Boolean](booleans.md) | Snabbreferens för typen boolean i Java: sant och falskt, jämförelser, logiska operatorer och vanliga fallgropar. |
+| [String](strings.md) | Snabbreferens för String i Java: längd, sökning, delsträngar, ersättning, delning och jämförelse av innehåll. |
+| [Datatyper](datatypes.md) | Översikt över Javas datatyper: primitiva typer, referenstyper, omfång och exempel på deklaration. |
 
-Databas-sidorna ligger längst ner i listan. Grunderna finns i [Databaser](../orm/index.md) och [SQL](../sql/index.md).
+## Kontrollflöde
+
+Villkor och loopar, från enklast till mest omfattande.
+
+| Sida | Vad den täcker |
+|------|----------------|
+| [If](if.md) | if, else if och else i Java: syntax, jämförelseoperatorer, skillnaden mot flera if i rad och vanliga misstag. |
+| [Switch](switch.md) | switch i Java: switch-sats med break, switch-sats med pilar och switch-uttryck (Java 14+), samt skillnaden mot if. |
+| [While](while.md) | while-loopen i Java: syntax, break och continue, nästlade loopar, oändliga loopar och vanliga misstag. |
+| [Do-while](do-while.md) | do-while-loopen i Java: syntax, skillnaden mot while, break och continue samt vanliga misstag. |
+| [For](for.md) | for-loopen i Java: syntax med initiering, villkor och steg, nästlade loopar, break och continue, samt for-each. |
+
+## Samlingar
+
+Arrayer, listor och andra samlingar.
+
+| Sida | Vad den täcker |
+|------|----------------|
+| [Arrayer](arrays.md) | Arrayer i Java: skapa, läsa, ändra, sortera och kopiera med hjälp av klassen Arrays. |
+| [List och ArrayList](list.md) | List och ArrayList i Java: skapa, lägga till, ta bort, söka, sortera och loopa. |
+| [LinkedList](linked-list.md) | LinkedList i Java: lägga till och ta bort i början och slutet, hämta element och när den är bättre än ArrayList. |
+| [Dictionary (Map och HashMap)](dictionary.md) | Map och HashMap i Java: nyckel-värde-par, sök med nyckel, loopa och varför Java inte kallar det Dictionary. |
+| [HashSet](hashset.md) | HashSet i Java: unika element, snabb sökning med contains, och varför ordningen inte är garanterad. |
+| [Stack](stack.md) | Stack i Java: LIFO med push, pop och peek, med Deque och ArrayDeque som rekommenderat val. |
+| [Queue](queue.md) | Queue i Java: FIFO med offer, poll och peek, och skillnaden mellan metoder som returnerar null och metoder som kastar undantag. |
+
+## Databaser
+
+JDBC, JPA med Hibernate och dokumentdatabaser.
+
+| Sida | Vad den täcker |
+|------|----------------|
+| [JDBC med SQLite](jdbc-sqlite.md) | JDBC med SQLite: Connection, PreparedStatement, CRUD, transaktioner och seeding utan ORM. |
+| [JPA och Hibernate](jpa-hibernate.md) | JPA och Hibernate: entiteter, SessionFactory, CRUD, transaktioner, relationer och seeding med SQLite. |
+| [MongoDB](mongodb.md) | MongoDB i Java: Docker, Atlas, Compass, konfiguration, CRUD, transaktioner med replica set och seeding. |
+
+## Verktyg och arbetssätt
+
+Git, kommandotolken, markdown och Scrum.
+
+| Sida | Vad den täcker |
+|------|----------------|
+| [Git](git-quickguide.md) | Git: att skapa och klona ett repository, arbeta med grenar, skicka upp ändringar, ångra och hantera fjärrrepositoryn. |
+| [Git Flow](git-flow.md) | Git Flow: branchstrukturen main, develop och feature-grenar, pull requests, hotfix och de vanligaste kommandona. |
+| [Kommandotolken](command-line.md) | Kommandotolken (cmd) i Windows: navigering, filhantering, filsökning, systeminformation, nätverk och användarkonton. |
+| [Markdown](markdown.md) | Markdown för README-filer och dokumentation i Java-projekt: rubriker, listor, länkar, tabeller och kodblock. |
+| [Scrum](scrum.md) | Scrum: roller, artefakter, events, estimering och user stories med tabeller. |
 
 ## Konfiguration i JSON
 
-Alla lathundar läser connection strings från `config.json`. Lösenord hör inte hemma i filen. De kommer från miljövariabler.
+Databaslathundarna läser connection strings från `config.json`. Lösenord hör inte hemma i filen. De kommer från miljövariabler:
 
 ```json
 {
   "ConnectionStrings": {
     "Sqlite": "jdbc:sqlite:webshop.db",
-    "MongoLocal": "mongodb://localhost:27017",
-    "MongoAtlas": "mongodb+srv://<användarnamn>:<lösenord>@<kluster>.mongodb.net/?retryWrites=true&w=majority"
+    "MongoLocal": "mongodb://localhost:27017"
   }
 }
 ```
 
-Läs filen med Jackson:
-
-```java
-ObjectMapper mapper = new ObjectMapper();
-JsonNode config = mapper.readTree(new File("config.json"));
-String url = config.get("ConnectionStrings").get("Sqlite").asText();
-```
-
-Lösenordet läser du från en miljövariabel, så det aldrig hamnar i git:
-
-```java
-String atlasUrl = System.getenv("MONGO_ATLAS");
-```
-
-Sätt variabeln i terminalen innan du startar programmet.
+Sätt variabeln i terminalen innan du startar programmet, till exempel `MONGO_ATLAS`.

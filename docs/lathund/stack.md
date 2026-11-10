@@ -1,7 +1,7 @@
 ---
 title: "Lathund: Stack"
 author: Marcus Ackre Medina
-description: "Stack i Java i lathundsform: LIFO med push, pop och peek, med Deque och ArrayDeque som rekommenderat val."
+description: "Stack i Java: LIFO med push, pop och peek, med Deque och ArrayDeque som rekommenderat val."
 parent: Lathund
 nav_order: 76
 ---

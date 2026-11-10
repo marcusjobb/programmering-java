@@ -1,7 +1,7 @@
 ---
 title: "Lathund: Scrum"
 author: Marcus Ackre Medina
-description: "Scrum i lathundsform: roller, artefakter, events, estimering och user stories med tabeller."
+description: "Scrum: roller, artefakter, events, estimering och user stories med tabeller."
 parent: Lathund
 nav_order: 975
 ---

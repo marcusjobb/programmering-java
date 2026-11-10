@@ -1,7 +1,7 @@
 ---
 title: "Lathund: List och ArrayList"
 author: Marcus Ackre Medina
-description: "List och ArrayList i Java i lathundsform: skapa, lägga till, ta bort, söka, sortera och loopa."
+description: "List och ArrayList i Java: skapa, lägga till, ta bort, söka, sortera och loopa."
 parent: Lathund
 nav_order: 72
 ---

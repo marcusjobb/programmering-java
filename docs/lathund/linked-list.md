@@ -1,7 +1,7 @@
 ---
 title: "Lathund: LinkedList"
 author: Marcus Ackre Medina
-description: "LinkedList i Java i lathundsform: lägga till och ta bort i början och slutet, hämta element och när den är bättre än ArrayList."
+description: "LinkedList i Java: lägga till och ta bort i början och slutet, hämta element och när den är bättre än ArrayList."
 parent: Lathund
 nav_order: 73
 ---

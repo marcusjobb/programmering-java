@@ -1,7 +1,7 @@
 ---
 title: "Lathund: JDBC med SQLite"
 author: Marcus Ackre Medina
-description: "JDBC med SQLite i lathundsform: Connection, PreparedStatement, CRUD, transaktioner och seeding utan ORM."
+description: "JDBC med SQLite: Connection, PreparedStatement, CRUD, transaktioner och seeding utan ORM."
 parent: Lathund
 nav_order: 101
 ---

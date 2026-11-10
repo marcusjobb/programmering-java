@@ -1,7 +1,7 @@
 ---
 title: "Lathund: Arrayer"
 author: Marcus Ackre Medina
-description: "Arrayer i Java i lathundsform: skapa, läsa, ändra, sortera och kopiera med hjälp av klassen Arrays."
+description: "Arrayer i Java: skapa, läsa, ändra, sortera och kopiera med hjälp av klassen Arrays."
 parent: Lathund
 nav_order: 71
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Lathund: Dictionary (Map och HashMap)"
 author: Marcus Ackre Medina
-description: "Map och HashMap i Java i lathundsform: nyckel-värde-par, sök med nyckel, loopa och varför Java inte kallar det Dictionary."
+description: "Map och HashMap i Java: nyckel-värde-par, sök med nyckel, loopa och varför Java inte kallar det Dictionary."
 parent: Lathund
 nav_order: 74
 ---

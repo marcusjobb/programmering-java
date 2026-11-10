@@ -1,7 +1,7 @@
 ---
 title: "Lathund: Markdown"
 author: Marcus Ackre Medina
-description: "Markdown i lathundsform för README-filer och dokumentation i Java-projekt: rubriker, listor, länkar, tabeller och kodblock."
+description: "Markdown för README-filer och dokumentation i Java-projekt: rubriker, listor, länkar, tabeller och kodblock."
 parent: Lathund
 nav_order: 974
 ---

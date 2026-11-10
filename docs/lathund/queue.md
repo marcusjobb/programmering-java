@@ -1,7 +1,7 @@
 ---
 title: "Lathund: Queue"
 author: Marcus Ackre Medina
-description: "Queue i Java i lathundsform: FIFO med offer, poll och peek, och skillnaden mellan metoder som returnerar null och metoder som kastar undantag."
+description: "Queue i Java: FIFO med offer, poll och peek, och skillnaden mellan metoder som returnerar null och metoder som kastar undantag."
 parent: Lathund
 nav_order: 77
 ---
